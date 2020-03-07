@@ -21,10 +21,10 @@ public class App {
 
         Comparador comparadorDaFran = new Comparador();
 
-        boolean menorQue = comparadorDaFran.comparar(30,5);
+        boolean menorQue = comparadorDaFran.compararMenorQue(30,5);
         System.out.println(menorQue);
 
-        boolean menorQue2 = comparadorDaFran.comparar(5,30);
+        boolean menorQue2 = comparadorDaFran.compararMenorQue(5,30);
         System.out.println(menorQue2);
 
 
